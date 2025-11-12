@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Simple Static Site</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <img src="images/logo.svg" alt="Logo" class="logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="container">
+    <h1>Contact</h1>
+    <form id="contactForm">
+      <label>Name:<input type="text" name="name" required></label>
+      <label>Email:<input type="email" name="email" required></label>
+      <label>Message:<textarea name="message" rows="4" required></textarea></label>
+      <button type="submit">Send</button>
+    </form>
+    <p id="status"></p>
+  </main>
+  <footer class="site-footer">
+    <p>© 2025 Simple Static Site</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
